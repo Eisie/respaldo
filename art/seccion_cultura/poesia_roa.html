@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roa Bastos</title>
+    
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    
+
+    <!-- locomotive-scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+</head>
+
+<body id="js-scroll">
+    <div class="wrapper">
+
+        <!-- menu -->
+        <nav class="menu">
+            <div class="menu__logo">
+                <a href="index.html">Volver</a>
+            </div>
+            <div class="menu__items">
+                <div class="menu__items-link"><a href="index.html">Fotos</a></div>
+                <div class="menu__items-link active"><a href="about.html">Nota</a></div>
+            </div>
+        </nav>
+
+        <!-- about-section -->
+        <div class="about__container" data-scroll-section>
+            
+            <p class="about__container-data" data-scroll><span class="roa"> Ciega... </span></span><br>¡Me estremece pensar que tu pupila<br>
+                girando en torno su mirada triste <br>
+                ya no ve como ayer la luz tranquila <br>
+                del día que se va; que ya no existe <br>
+                el placer para ti de verlo todo,<br>
+                desde el cielo hasta el lodo;<br>
+                el iris en las flores,<br>
+                el vuelo de la garza enamorada,<br>
+                la acuarela viviente del paisaje, <br>
+                el rubor de la luz en la alborada<br>
+                con su tibia cascada de colores<br>
+                temblando en las guirnaldas del boscaje...!<br>
+                 
+                ¡Ciega...! Una venda obscura<br>
+                medrosa como un ala de vampiro<br>
+                cayó sobre tus ojos,<br>
+                        y un suspiro<br>
+                brotó como gemido de amargura<br>
+                del fondo de tu almita anochecida<br>
+                apenas en el alba de la vida.<br>
+                 
+                Hoy me miras sin verme;<br>
+                y tus claras pupilas azoradas<br>
+                al fijarse distantes se parecen<br>
+                a dos estrellas que perdiendo el rumbo<br>
+                quedaron apagadas<br>
+                en mitad de la noche.<br>
+                 
+                Acaso sólo escucharás la vida<br>
+                como el ligero tumbo<br>
+                de las olas de mar desconocida<br>
+                que vienen a morir con beso suave<br>
+                de murmullos y espumas<br>
+                en tu playa de brumas.<br>
+                 
+                ¡Ciega, mi bien, y la pesada llave<br>
+                de tu prisión en manos de la suerte,<br>
+                señora de la vida y de la muerte...!<br>
+                 
+                Sobre el bruñido lago de la tarde,<br>
+                el sol se va y en sus reflejos arde<br>
+                un último destello de esperanza;<br>
+                vierte su rayo en tu pupila ciega<br>
+                que mira como ayer, serena y mansa.<br>
+                 
+                Hay un sol que se va y otro que llega... </p>
+
+          
+            
+        </div>
+
+        
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        // smooth scroll 
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#js-scroll'),
+            smooth: true,
+            smoothMobile: true,
+            inertia: 0.75
+        });
+
+       
+    </script>
+</body>
+
+</html>

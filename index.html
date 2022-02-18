@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" a href="./css/style.css"> </a>
+    <link rel="stylesheet" type="text/css" href="css2/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css2/demo.css" />
+    <script>document.documentElement.className = 'js';</script>
+
+    
+    
+    
+    <script type="text/javascript">
+    let esMenor = false;
+    const mensaje = () => {
+        if (window.innerWidth < 1020){
+            if (!esMenor){
+                alert ("No funciona ");
+            }
+            esMenor = true;
+        } else{
+            esMenor= false;
+        }
+
+    }
+    window.onresize = mensaje;
+    mensaje ()
+    </script>
+
+    <title>Inicio</title>
+</head>
+
+<body>
+
+	<a href="../General_inicio/index.html" id="link2"> Inicio</a>
+    
+
+
+    <section id="todocontenido">
+
+        <img src="./img/assets/bg.jpg" id="bg"> </img>
+        <img src="./img/assets/moon.png" id="moon"> </img>
+        <img src="./img/assets/mountain2.png" id="mountain"> </img>
+    
+        <h2 id="text">DivCult</h2> <br>
+        <div class="arrow">
+             
+                <span></span>
+                <span></span>
+  
+</div>
+       
+
+
+
+
+        
+
+
+    </section>
+    <script type="text/javascript">
+        
+
+        let bg= document.getElementById("bg");
+        let moon= document.getElementById("moon");
+        let mountain= document.getElementById("mountain");
+      
+        let text= document.getElementById("text");
+        window.addEventListener('scroll', function(){
+            var value= window.scrollY;
+            bg.style.top= value * 0.5 + 'px'; 
+            moon.style.left= -value * 0.5 + 'px'; 
+            mountain.style.top= -value * 0.15 +'px';
+           
+            text.style.top= value * 1 +'px';
+           
+
+
+        })
+    </script>
+
+           
+     
+ 
+<section id="sec1">
+     
+    <div class="contenedor-texto">
+    	<a href="#todocontenido" id="link3"> Subir</a> <br> <br>
+    	<a href="#sec2" id="link3"> Bajar</a>
+         <h2 id="textx">Bienvenido a Paraguay</h2> <br> <br> <br>
+          
+             <a href="#sec2" id="link"> ¡Toca!</a>
+             
+
+                <canvas id="canvas"></canvas>
+
+
+            </div>
+
+         
+
+        
+   <img src="./img/assets/abcd.svg">
+
+  
+ 
+
+            
+ 
+
+   
+
+</section>
+ 
+<section id="sec2">
+	    	<a href="#todocontenido" id="link4"> Subir</a> <br> <br>
+    <div class="contenedor-texto">
+
+    	
+        
+        
+    </div>
+    <section class="content">
+                <h2 class="content__title"></h2>
+                <div class="grid grid--effect-rigel">
+                    <a href="./culture/culture.html" class="grid__item grid__item--c1">
+                        <div class="stack">
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__figure">
+                                <img class="stack__img" src="img2/1.png" alt="Image"/>
+                            </div>
+                        </div>
+                        <div class="grid__item-caption">
+                            <h3 class="grid__item-title">Cultura</h3>
+                            <div class="column column--left">
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                            </div>
+                            <div class="column column--right">
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./animals/animals.html" class="grid__item grid__item--c2">
+                        <div class="stack">
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__figure">
+                                <img class="stack__img" src="img2/2.png" alt="Image"/>
+                            </div>
+                        </div>
+                        <div class="grid__item-caption">
+                            <h3 class="grid__item-title">Animales</h3>
+                            <div class="column column--left">
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                                
+                            </div>
+                            <div class="column column--right">
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./art/seccion_cultura/index.html" class="grid__item grid__item--c3">
+                        <div class="stack">
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__deco"></div>
+                            <div class="stack__figure">
+                                <img class="stack__img" src="img2/3.png" alt="Image"/>
+                            </div>
+                        </div>
+                        <div class="grid__item-caption">
+                            <h3 class="grid__item-title">Literatura</h3>
+                            <div class="column column--left">
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                            </div>
+                            <div class="column column--right">
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                                <span class="column__text"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+    <!-- img src= "unouo.svg alt=">-->
+
+</section>
+
+
+
+
+
+
+
+<!-- partial -->
+<script  src="./script.js"></script>
+
+<script src="js2/anime.min.js"></script>
+        <script src="js2/main.js"></script>
+        <script>
+        (function() {
+            [].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function(stackEl) {
+                new VegaFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-castor > .grid__item')).forEach(function(stackEl) {
+                new CastorFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function(stackEl) {
+                new HamalFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-polaris > .grid__item')).forEach(function(stackEl) {
+                new PolarisFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-alphard > .grid__item')).forEach(function(stackEl) {
+                new AlphardFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-altair > .grid__item')).forEach(function(stackEl) {
+                new AltairFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+                new RigelFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-canopus > .grid__item')).forEach(function(stackEl) {
+                new CanopusFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-pollux > .grid__item')).forEach(function(stackEl) {
+                new PolluxFx(stackEl);
+            });
+            [].slice.call(document.querySelectorAll('.grid--effect-deneb > .grid__item')).forEach(function(stackEl) {
+                new DenebFx(stackEl);
+            });
+        })();
+        </script>
+
+
+
+
+</body>
+
+</html>

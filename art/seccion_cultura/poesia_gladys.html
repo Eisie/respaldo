@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gladys</title>
+    
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    
+
+    <!-- locomotive-scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+</head>
+
+<body id="js-scroll">
+    <div class="wrapper">
+
+        <!-- menu -->
+        <nav class="menu">
+            <div class="menu__logo">
+                <a href="index.html">Volver</a>
+            </div>
+            <div class="menu__items">
+                <div class="menu__items-link"><a href="index.html">Fotos</a></div>
+                <div class="menu__items-link active"><a href="about.html">Nota</a></div>
+            </div>
+        </nav>
+
+        <!-- about-section -->
+        <div class="about__container" data-scroll-section>
+            
+            <p class="about__container-data" data-scroll><span class="roa"> Ciega... </span></span> <br>
+                Si hubiéramos estado hechos de metal,	<br>	
+                quizá me habría tocado ser de lata. <br>		
+                Somos de carne y hueso y nos pudrimos.	<br>	
+                Tampoco el óxido me gusta nada.	<br>	
+                
+                Si hubiésemos estado hechos de madera<br>	 	
+                me habría gustado ser la viga de mi casa.<br>		
+                ¿Haría tic-tac igual mi corazón		<br>
+                si en vez de ser mujer, fuese una caja?	<br>	
+                
+                ¿No hubiera sido preferible acaso	<br>	
+                tener en el cerebro cien mil patas	<br> 
+                y en vez de corazón		<br>
+                una hermosa cajita de hojalata?	<br>	
+                
+                Definitivamente no. Y estoy quejándome	<br>	
+                de que a veces me faltan las palabras	<br>	
+                para admitir que de lo más valioso	 <br>
+                que esconde nuestra cáscara		<br>
+                lo más hermoso es verdaderamente el corazón	<br>	
+                mientras sea realmente corazón y no una vieja y oxidada <br>
+                pieza de hojalata.
+            </p>
+
+          
+            
+        </div>
+
+        
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        // smooth scroll 
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#js-scroll'),
+            smooth: true,
+            smoothMobile: true,
+            inertia: 0.75
+        });
+
+       
+    </script>
+</body>
+
+</html>

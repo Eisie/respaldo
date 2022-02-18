@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nota</title>
+  
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+    <!-- locomotive-scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+</head>
+
+<body id="js-scroll">
+    <div class="wrapper">
+
+        <!-- menu -->
+        <nav class="menu">
+            <div class="menu__logo">
+                <a href="index.html">Volver</a>
+            </div>
+            <div class="menu__items">
+                <div class="menu__items-link"><a href="index.html">Fotos</a></div>
+                <div class="menu__items-link active"><a href="about.html">Nota</a></div>
+            </div>
+        </nav>
+
+        <!-- about-section -->
+        <div class="about__container" data-scroll-section>
+            <p class="about__container-data" data-scroll>¡Hola! Los escritores paraguayos son muchos, y este mini resúmen fue hecho para que te hagas una idea rápida de la calidad de sus obras. Si quieres conocer más, hay páginas paraguayas como <span
+                class="about__container-contact-link"><a href="http://www.cervantesvirtual.com/" target="_blank">estas</a></span> ¡Disfruta tu lectura!</p>
+
+           
+            
+        </div>
+
+        
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        // smooth scroll 
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#js-scroll'),
+            smooth: true,
+            smoothMobile: true,
+            inertia: 0.75
+        });
+
+       
+    </script>
+</body>
+
+</html>
